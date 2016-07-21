@@ -1,0 +1,261 @@
+/*------------------------------------------------------------------------------
+     New way to add comments - love it!
+------------------------------------------------------------------------------*/
+html {
+  height:100%;
+}
+
+/*------------------------------------------------------------------------------
+     Header Styles
+------------------------------------------------------------------------------*/
+header {
+  background-color: #f3f3f3;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-grow: 1;
+  list-style: none;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+/**
+#header {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+}
+
+.site-logo img {
+  display: block;
+}
+
+#header ul.top-nav {
+  position: relative;
+  float: right;
+  margin-right: 9px;
+  margin-top: 2px;
+
+}
+
+#header ul.top-nav li {
+  position: relative;
+  float: left;
+  font-size: 13px;
+}
+
+#header ul.top-nav li a {
+  margin-left: 15px;
+  display: block;
+  line-height: 25px;
+  color: #000;
+  font-weight: bold;
+
+}
+
+#header ul.top-nav li a:hover {
+  color: #4183C4;
+}
+
+header {
+  font: 13px helvetica,arial,freesans,clean,sans-serif;
+  line-height: 1.4em;
+  background-color: #f3f3f3;
+  color: #333333;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  font-size: 13px;
+
+.top-nav {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: auto;
+ }
+
+ ul {
+   list-style:none;
+   margin: 0;
+   padding: 0;
+ }
+
+ h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  padding: 0;
+}
+
+.item a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: .8em 0;
+}
+
+p span {
+  color: #777;
+}
+**/
+/*------------------------------------------------------------------------------
+     Body Styles
+------------------------------------------------------------------------------*/
+/**body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 940px;"
+    font: 13px helvetica,arial,freesans,clean,sans-serif;
+    line-height: 1.4em;
+    background-color: #fff;
+    color: #333333;
+    margin: 8px;
+    padding: 0px;
+
+}
+**/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px;
+  border-color: rgb(17, 15, 15);
+  margin: 15px;
+  padding-top: 1em;
+}
+/**
+.cat_holder {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.cat {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px;
+  border-color: black;
+  margin: 10px;
+  padding-top: 2em;
+}
+
+.andycat {
+  height: 25px;
+  width: 25px;
+}
+
+/*------------------------------------------------------------------------------
+     Font styles
+------------------------------------------------------------------------------*/
+font-family: 'octiconsregular';
+  src: url('octicons-regular-webfont.eot');
+  src: url('octicons-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('octicons-regular-webfont.woff') format('woff'),
+       url('octicons-regular-webfont.svg#octiconsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*------------------------------------------------------------------------------
+     Icon Styles
+------------------------------------------------------------------------------*/
+/**
+.mega-icon {
+  font-family: 'octiconsregular';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.mega-icon-invertocat:before {
+  content: "\f00a";
+}
+
+**/
+/*------------------------------------------------------------------------------
+     Footer Styles
+------------------------------------------------------------------------------*/
+/**
+#wrapper {
+  padding-bottom: 150px;
+  position: relative;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  padding: 0 10px;
+  color: #777;
+}
+
+#footer .mega-icon {
+  color: #ccc;
+}
+
+#footer .mega-icon:hover { color: #bbb; }
+
+.footer-inner {
+  border-top: 1px solid #ddd;
+  display: table;
+  width: 100%;
+  padding: 15px 0 20px;
+}
+
+.footer-cell {
+  display: table-cell;
+  text-align: center;
+  width: 10%;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.footer-cell:first-child {
+  text-align: left;
+}
+
+.footer-cell:last-child {
+  text-align: right;
+}
+
+.footer-cell > li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-cell > li a:hover {
+  text-decoration: underline;
+}
+**/
+/*------------------------------------------------------------------------------
+     That's All Folks or Guys && Girls, just for Senor Perry ;<)
+------------------------------------------------------------------------------*/
